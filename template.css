@@ -1,0 +1,162 @@
+.dashboard-section h2, .course-section h2 , .bio-section h2, .payments-section h2 , .results-section h2, .accomodation-section h2, .application-section h2, .appointments-section h2{
+  text-align: left;
+  font-size: 1.4rem;
+  margin: 2rem 0;
+  font-weight: normal;
+  color: rgba(125, 189, 227, 1);
+}
+
+.course-section--main, .payments-section--main, bio-section--main, .results-section--main, .accomodation-section--main {
+  flex-flow: row;
+}
+
+.course-section--main , .bio-section--main, .payments-section--main, .results-section--main, 
+accomodation-section--main, .application-section--main, .appointments-section--main {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bio-section .box, .payments-section .box, .application-section .box {
+  flex-basis: 48%;
+}
+
+/* Results and Accomodation section styles */
+
+.results-section .box, .accomodation-section .box, .appointments-section .box {
+  flex-basis: 100%;
+  margin: 0 auto;
+}
+
+/* End of Results section styles */
+
+/* Courses styles*/
+
+.course-section .box {
+ flex-basis: 45%;
+}
+
+/* End of courses styles */
+
+.bio-section .box, .course-section .box, .dashboard-section .box, .payments-section .box, .results-section .box, .accomodation-section .box, .application-section .box, .appointments-section .box{
+  transition: .1s linear;
+  border: 0.02rem solid #ccc;
+  padding: 1.2rem 1.2rem 0.8rem;
+  border-radius: 1rem;
+  margin: 1rem 0rem;
+}
+
+
+/* Dashboard styles*/
+
+.dashboard-section .course-box {
+  width: 100%;
+  height: auto;
+  padding: 1.2rem;
+  border: 0.02rem solid #ccc;
+  border-radius: 1rem;
+  margin: 2rem auto 1rem;
+}
+
+.dashboard-section .course-box:hover {
+  transform: scale(2rem);
+}
+
+.dashboard-section progress {
+  width: 100%;
+  margin: 0.8rem auto 0.5rem;
+  height: 1rem;
+}
+
+.dashboard-section .course-box div {
+  font-weight: normal;
+  font-size: 1.2rem;
+  margin: 0.5rem 0 1rem 0.5rem;
+  color: #555;
+}
+
+.dashboard-section .payment-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  margin: 2rem auto 1rem;
+}
+
+.dashboard-section .refresh_payment {
+  flex-basis: 60%;
+  height: auto;
+  border-radius: 1rem;
+  padding: 1.2rem;
+}
+
+.dashboard-section .payment {
+  flex-basis: 30%;
+  height: auto;
+  border-radius: 1rem;
+  padding: 1.2rem;
+}
+
+.dashboard-section .application-box {
+  flex-basis: 60%;
+  width: 60%;
+  height: auto;
+  border-radius: 1rem;
+  padding: 1.2rem;
+}
+
+/* End of Dashboard styles */
+
+/* Application Section styles */
+
+  .application-section .siwes img {
+  width: 8rem;
+  height: auto;
+}
+
+/* End of Application Section styles */
+
+.course-section .box:hover , .bio-section .box:hover, .dashboard-section .box:hover, .payments-section .box:hover, .results-section .box:hover, .accomodation-section .box:hover, .application-section .box:hover, .appointments-section .box:hover{
+  border: 0.2rem solid rgba(125, 189, 227, 1);
+  transform: scale(101%);
+}
+
+.course-section .box p , .bio-section .box p, .dashboard-section .box p, .payments-section .box p , .results-section .box p, .accomodation-section .box p, .application-section .box p, .appointments-section .box p {
+  font-size: 1.3rem;
+  margin: 0.5rem 0 1rem 0.5rem;
+  font-weight: bold;
+}
+
+.dashboard-section img, .course-section img , .bio-section img, .payments-section img, .results-section img, 
+.accomodation-section img, .application-section img, .appointments-section img {
+  width: 7rem;
+  height: 7rem;
+  margin: 0.5rem 0rem 0.5rem 0.5rem;
+}
+
+
+@media all and (max-width: 735px) {
+.bio-section--main, .payments-section--main, .results-section--main, .accomodation-section--main, .application-section--main, .appointments-section--main {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .bio-section .box, .payments-section .box, .results-section .box, .accomodation-section .box, .application-section .box, .appointments-section .box {
+    width: 100%;
+    transition: .3s linear;
+    border: 0.02rem solid #ccc;
+    padding: 1.2rem;
+    border-radius: 1rem;
+    margin: 1rem 0rem;
+  }
+}
+
+
+/*//////*/
+
