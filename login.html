@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Portal | Login</title>
+  <link rel="stylesheet" href="./assets/styles/login.css" title="Login Stylesheet" type="text/css" />
+</head>
+
+<body>
+ <div class="app">
+   <div class="row">
+     <div class=" col col-1">
+       <img src="./assets/images/unilag.png" alt="logo-white" />
+     </div>
+     
+     <form action="http://localhost:9690/" method="POST" autocomplete="on" class="col col-2">
+       <div class="col-2--main">
+         
+       <h2 class="col-2--heading">LOG IN</h2>
+       
+            <div class="form-input">
+              <label for="matric">Matric/Application number</label>
+                    <input type="text" name="matric" required id="matricNumber" placeholder="Matric/Application number" />
+            </div>
+    
+            <div class="form-input">
+               <label for="password">Password</label>
+           <input type="password" required name="password" id="accountPwd" placeholder="***********"  />
+            </div>
+            
+        </div>
+        
+        <div class="col-2--sub">
+          <p>
+            <a class="reset" href="#">Forgot Password?</a>
+          </p>
+          
+          <input type="submit" value="SIGN IN" class="btn loginBtn">
+        </div>
+     </form>
+   </div>
+ </div>
+ <script src="./assets/scripts/login.js" type="text/javascript" defer charset="utf-8"></script>
+</body>
+
+</html>
