@@ -1,2 +1,2 @@
-* University of Lagos Student Portal Clone
+* University of Lagos Student Portal Clone.
 
